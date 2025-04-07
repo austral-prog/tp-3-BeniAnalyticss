@@ -8,3 +8,4 @@ def slice_simple():
     letras_rango_1 = texto[:4].lower()
     letras_rango_2 = texto[-3:].lower()
     print(letras_rango_1 + letras_rango_2)
+slice_simple()
