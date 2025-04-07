@@ -1,8 +1,10 @@
 def slice_simple():
     texto = "Awesome"
-    # Código a implementar, se debe utilizar la variable 'texto' para resolver el ejercicio.
-    # No se debe modificar la definición de la función, ni ingresar otro valor mediante input.
+    primeras_3 = texto[:3].lower()
+    print(primeras_3)
+    letras_en_medio = texto[2:5].lower()
+    print(letras_en_medio)
 
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
+    letras_rango_1 = texto[:4].lower()
+    letras_rango_2 = texto[-3:].lower()
+    print(letras_rango_1 + letras_rango_2)
